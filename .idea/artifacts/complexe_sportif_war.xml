@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="complexe-sportif:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>complexe-sportif</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="complexe-sportif-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="complexe-sportif:war exploded" />
+    </root>
+  </artifact>
+</component>
